@@ -1,10 +1,19 @@
 import type { MenuCategory, MenuExtra, MenuItem, QualityPillar, Testimonial } from '../types/order';
+import heroEuroBurgerImg from '../assets/images/hero_euro_burger_1795212159360.jpg';
+import menuEuroBurgerEspecialImg from '../assets/images/menu_euro_burger_especial_1795212159597.jpg';
+import menuSmashDuploCheddarImg from '../assets/images/menu_smash_duplo_cheddar_1795212158682.jpg';
+import menuBaconSupremeImg from '../assets/images/menu_bacon_supreme_1795212158843.jpg';
+import menuChickenCrispyImg from '../assets/images/menu_chicken_crispy_1795212159069.jpg';
+import menuBatataRusticaImg from '../assets/images/menu_batata_rustica_1795212158590.jpg';
+import menuSmashSaladImg from '../assets/images/menu_smash_salad_1795212158600.jpg';
+import menuMiniPasteisImg from '../assets/images/menu_mini_pasteis_1795212159027.jpg';
+import menuSodaFrutasImg from '../assets/images/menu_soda_frutas_1795212158746.jpg';
 
 export const WHATSAPP_NUMBER = '5562999999999';
 export const WHATSAPP_DISPLAY = '(62) 99999-9999';
 export const DELIVERY_FEE = 5.0;
 
-export const HERO_IMAGE = '/src/assets/images/hero_euro_burger_1795212159360.jpg';
+export const HERO_IMAGE = heroEuroBurgerImg;
 
 export const MENU_CATEGORIES: MenuCategory[] = [
   'Todos os Itens',
@@ -32,7 +41,7 @@ export const MENU_ITEMS: MenuItem[] = [
       'O carro-chefe da nossa casa no Jardim Nova Esperança. Blend 100% bovino de 180g selado na brasa de alta temperatura, coberto por queijo gouda derretido e maçaricado na hora, tiras de bacon caramelizado e nossa maionese artesanal secreta no pão brioche tostado na manteiga da terra.',
     price: 36.9,
     unitLabel: 'Preço individual',
-    image: '/src/assets/images/menu_euro_burger_especial_1795212159597.jpg',
+    image: menuEuroBurgerEspecialImg,
     badge: 'Mais Pedido',
     isBurger: true,
     prepTime: '18–25 min',
@@ -47,7 +56,7 @@ export const MENU_ITEMS: MenuItem[] = [
       'Técnica autêntica de smash na chapa de ferro: dois discos de 90g prensados até formar a crosta caramelizada irresistível, intercalados com duplo cheddar inglês cremoso, cebola roxa crocante, picles artesanal da casa e pão brioche macio.',
     price: 29.9,
     unitLabel: 'Preço individual',
-    image: '/src/assets/images/menu_smash_duplo_cheddar_1795212158682.jpg',
+    image: menuSmashDuploCheddarImg,
     badge: 'Favorito da Galera',
     isBurger: true,
     prepTime: '15–20 min',
@@ -62,7 +71,7 @@ export const MENU_ITEMS: MenuItem[] = [
       'Defumado de verdade na brasa de lenha frutífera. Leva blend bovino suculento de 180g, fatias espessas de bacon artesanal curado na casa, queijo prato derretido e nosso exclusivo molho barbecue artesanal reduzido com café especial.',
     price: 38.5,
     unitLabel: 'Preço individual',
-    image: '/src/assets/images/menu_bacon_supreme_1795212158843.jpg',
+    image: menuBaconSupremeImg,
     badge: 'Novidade',
     isBurger: true,
     prepTime: '20–25 min',
@@ -77,7 +86,7 @@ export const MENU_ITEMS: MenuItem[] = [
       'Crocância sonora por fora e suculência por dentro: sobrecoxa marinada por 12 horas em leitelho e ervas finas, empanada na hora, servida com coleslaw de repolho roxo, picles crocante e maionese fresca de limão siciliano.',
     price: 31.0,
     unitLabel: 'Preço individual',
-    image: '/src/assets/images/menu_chicken_crispy_1795212159069.jpg',
+    image: menuChickenCrispyImg,
     isBurger: true,
     prepTime: '18–22 min',
   },
@@ -91,7 +100,7 @@ export const MENU_ITEMS: MenuItem[] = [
       'Batatas selecionadas cortadas em gomos com casca, pré-cozidas e fritas em dupla imersão para garantir máxima crocância. Finalizadas com flor de sal de parrilla, ramos de alecrim fresco e acompanhadas de aioli artesanal de alho assado.',
     price: 22.0,
     unitLabel: 'Porção serve 2',
-    image: '/src/assets/images/menu_batata_rustica_1795212158590.jpg',
+    image: menuBatataRusticaImg,
     badge: 'Crocante',
     isBurger: false,
     prepTime: '12–15 min',
@@ -106,7 +115,7 @@ export const MENU_ITEMS: MenuItem[] = [
       'O clássico elevado à perfeição: smash de 100g com bordas crocantes, queijo estepe derretido, folhas selecionadas de alface americana crocante, fatias de tomate italiano maduro e nosso molho especial Euro no brioche selado.',
     price: 26.9,
     unitLabel: 'Preço individual',
-    image: '/src/assets/images/menu_smash_salad_1795212158600.jpg',
+    image: menuSmashSaladImg,
     isBurger: true,
     prepTime: '15–18 min',
   },
@@ -120,7 +129,7 @@ export const MENU_ITEMS: MenuItem[] = [
       'Entrada campeã da casa! Seis mini pastéis artesanais de massa leve, crocante e sequinha, generosamente recheados com costela bovina assada lentamente por 12 horas na cerveja preta e requeijão cremoso de corte. Acompanha molho de ervas.',
     price: 24.0,
     unitLabel: '6 Unidades',
-    image: '/src/assets/images/menu_mini_pasteis_1795212159027.jpg',
+    image: menuMiniPasteisImg,
     badge: 'Petisco Top',
     isBurger: false,
     prepTime: '12–15 min',
@@ -135,7 +144,7 @@ export const MENU_ITEMS: MenuItem[] = [
       'Refrescância pura para equilibrar o sabor da brasa. Preparada na hora com calda artesanal reduzida de amoras, morangos e framboesas frescas, água com gás de alta carbonatação, gelo cristalino e folhas de hortelã.',
     price: 9.9,
     unitLabel: 'Copo 400ml',
-    image: '/src/assets/images/menu_soda_frutas_1795212158746.jpg',
+    image: menuSodaFrutasImg,
     isBurger: false,
     prepTime: '5 min',
   },
